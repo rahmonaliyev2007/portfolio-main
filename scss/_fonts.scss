@@ -1,0 +1,156 @@
+@import "variables";
+@mixin font24{
+    font-size: 24px;
+    line-height: 27px;
+}
+
+@mixin font23{
+    font-size: 23px;
+    line-height: 26px;
+}
+
+@mixin font22{
+    font-size: 22px;
+    line-height: 25px;
+}
+
+@mixin font21{
+    font-size: 21px;
+    line-height: 30px;
+}
+
+@mixin font20{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+@mixin font18{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+@mixin font16{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+@mixin font15{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+@mixin font14{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@mixin font13{
+    font-size: 13px;
+    line-height: 15px;
+}
+
+@mixin font12{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+@mixin font10{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+@mixin font9{
+    font-size: 9px;
+    line-height: 12px;
+}
+
+@mixin font8{
+    font-size: 8px;
+    line-height: 11px;
+}
+
+@mixin font7{
+    font-size: 7px;
+    line-height: 10px;
+}
+
+@mixin heading{
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 610px;
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+@mixin heading-950{
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 610px;
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+@mixin heading-728{
+    font-size: 30px;
+    line-height: 35px;
+    max-width: 610px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+@mixin heading-578{
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 610px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+
+@mixin heading-450{
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 610px;
+    margin: auto;
+    color: $colorblack;
+    text-align: center;
+}
+
+@mixin heading-p{
+    font-size: 21px;
+    line-height: 30px;
+    max-width: 690px;
+    color: $polblack;
+    margin: 0 0 20px;
+}
+
+
+@mixin heading-p-950{
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 550px;
+    color: $polblack;
+    margin: 10px 0 30px;
+}
+
+@mixin heading-p-728{
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 450px;
+    color: $polblack;
+    margin: 5px 0 10px;
+}
+
+@mixin heading-p-578{
+    font-size: 10px;
+    line-height: 15px;
+    max-width: 350px;
+    color: $polblack;
+    margin: 5px auto 10px;
+    text-align: center;
+}
+

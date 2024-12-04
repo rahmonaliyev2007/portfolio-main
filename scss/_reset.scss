@@ -1,0 +1,64 @@
+@import "fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 22, 36);
+}
+
+.container{
+    max-width: 1260px;
+    padding: 0 10px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+
+
+.heading{
+    @include heading;
+}
+.heading-p{
+    @include heading-p;
+}
+
+
+@media screen and (max-width:950px) {
+    .heading{
+        @include heading-950;
+    }
+    .heading-p{
+        @include heading-p-950;
+    }
+}
+
+@media screen and (max-width:728px) {
+    .heading{
+        @include heading-728;
+    }
+    .heading-p{
+        @include heading-p-728;
+    }
+    
+}
+
+@media screen and (max-width:578px) {
+    .heading{
+        @include heading-578;
+    }
+    .heading-p{
+        @include heading-p-578;
+    }
+}

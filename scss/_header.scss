@@ -1,0 +1,49 @@
+#header{
+    padding-top: 200px;
+    height: 100vh;
+    img{
+        position: fixed;
+        right: 0;
+        transform: translate(600px,0);
+        bottom: -100px;
+        z-index: -1;
+        animation-name: drawing;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        animation-duration: 2s;
+    }
+
+
+    h1{
+        font-size: 80px;
+        color: white;
+    }
+    h2{
+        font-size: 60px;
+        color: white;
+    }
+}
+
+
+
+.typewriter {
+    font-size: 30px;
+        background: linear-gradient(to right, white, #ff59c1 20%, #9865dc 80%); 
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink 0.7s steps(2, start) infinite;
+}
+
+@keyframes drawing {
+    from{
+        transform: translate(600px,0);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}

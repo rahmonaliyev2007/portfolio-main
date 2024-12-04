@@ -1,0 +1,89 @@
+.portfolio {
+	margin: auto;
+
+	.p-cards {
+		width: 100%;
+		border-radius: 10px;
+		overflow-x: scroll;
+		display: grid;
+		grid-template-columns: 400px 400px 400px 400px 400px 400px 400px 400px;
+		gap: 20px;
+		padding: 20px 0;
+
+	}
+
+	.p-cards::-webkit-scrollbar {
+		display: none;
+		/* Chrome va Safari uchun scrollbarni yashirish */
+	}
+
+	.p-card {
+		width: 400px;
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: inset 0 0 5px 2px #ffffff87;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: rgba(255, 255, 255, 0.3);
+		backdrop-filter: blur(35px);
+	}
+
+	.p-img {
+		max-width: 95%;
+		margin: auto;
+		display: block;
+	}
+
+	.p-img img {
+		max-width: 100%;
+		border-radius: 10px;
+	}
+
+	.p-cards:hover> :not(:hover) {
+		filter: blur(3px);
+	}
+
+	.p-txt {
+		width: 95%;
+		margin: auto;
+		display: block;
+	}
+
+	.p-title {
+		font-size: 30px;
+		color: white;
+		margin: 10px 0;
+	}
+
+	.p-buttons {
+		height: 2.5rem;
+		border-radius: 5px;
+		background: #ffffff22;
+		backdrop-filter: brightness(100%) blur(2rem);
+		font-weight: 500;
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 20px;
+
+		a {
+			color: white;
+			display: flex;
+			align-items: center;
+			gap: 5px;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+	.p-buttons:hover> :not(:hover){
+		filter: blur(1px);
+		opacity: 0.8;
+	}
+}
+
+.tech-stack{
+	padding: $padding;
+}
